@@ -1,0 +1,232 @@
+{
+  "page": "SignIn",
+  "url": "https://doorlightwebdev.db1008.com/sign-in",
+  "title": "Doorlight Inc. - Premier Real Estate Brokerage",
+  "capturedAt": "2026-02-15T12:00:00.000Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "state": "default",
+  "elements": [
+    {
+      "id": "UI-001",
+      "tag": "a",
+      "type": "link",
+      "testId": "",
+      "selector": "a[href=\"/\"]",
+      "label": "logo",
+      "text": "",
+      "placeholder": "",
+      "required": false,
+      "visible": true,
+      "enabled": true,
+      "parent": null
+    },
+    {
+      "id": "UI-002",
+      "tag": "p",
+      "type": "heading",
+      "testId": "",
+      "selector": "form p:has-text(\"Sign in\")",
+      "label": "",
+      "text": "Sign in",
+      "placeholder": "",
+      "required": false,
+      "visible": true,
+      "enabled": true,
+      "parent": "form"
+    },
+    {
+      "id": "UI-003",
+      "tag": "p",
+      "type": "subtitle",
+      "testId": "",
+      "selector": "form p:has-text(\"Access your personalized\")",
+      "label": "",
+      "text": "Access your personalized real estate experience",
+      "placeholder": "",
+      "required": false,
+      "visible": true,
+      "enabled": true,
+      "parent": "form"
+    },
+    {
+      "id": "UI-004",
+      "tag": "button",
+      "type": "button",
+      "testId": "",
+      "selector": "button:has-text(\"Continue with Google\")",
+      "label": "",
+      "text": "Continue with Google",
+      "placeholder": "",
+      "required": false,
+      "visible": true,
+      "enabled": true,
+      "parent": "form"
+    },
+    {
+      "id": "UI-005",
+      "tag": "input",
+      "type": "text",
+      "testId": "",
+      "selector": "input[name=\"email\"]",
+      "label": "Email",
+      "text": "",
+      "placeholder": "Enter your Email",
+      "required": true,
+      "visible": true,
+      "enabled": true,
+      "parent": "form"
+    },
+    {
+      "id": "UI-006",
+      "tag": "p",
+      "type": "label",
+      "testId": "",
+      "selector": "form > div > div:has-text(\"Email\")",
+      "label": "",
+      "text": "Email",
+      "placeholder": "",
+      "required": false,
+      "visible": true,
+      "enabled": true,
+      "parent": "form"
+    },
+    {
+      "id": "UI-007",
+      "tag": "p",
+      "type": "label",
+      "testId": "",
+      "selector": "form > div > div:has-text(\"Password\")",
+      "label": "",
+      "text": "Password",
+      "placeholder": "",
+      "required": false,
+      "visible": true,
+      "enabled": true,
+      "parent": "form"
+    },
+    {
+      "id": "UI-008",
+      "tag": "input",
+      "type": "password",
+      "testId": "",
+      "selector": "input[name=\"password\"]",
+      "label": "Password",
+      "text": "",
+      "placeholder": "Enter Password",
+      "required": true,
+      "visible": true,
+      "enabled": true,
+      "parent": "form"
+    },
+    {
+      "id": "UI-009",
+      "tag": "a",
+      "type": "link",
+      "testId": "",
+      "selector": "a[href=\"/forgot-password\"]",
+      "label": "Forgot Password",
+      "text": "Forgot Password",
+      "placeholder": "",
+      "required": false,
+      "visible": true,
+      "enabled": true,
+      "parent": "form"
+    },
+    {
+      "id": "UI-010",
+      "tag": "button",
+      "type": "submit",
+      "testId": "",
+      "selector": "button[type=\"submit\"]:has-text(\"Sign in\")",
+      "label": "Sign in",
+      "text": "Sign in",
+      "placeholder": "",
+      "required": false,
+      "visible": true,
+      "enabled": true,
+      "parent": "form"
+    },
+    {
+      "id": "UI-011",
+      "tag": "a",
+      "type": "link",
+      "testId": "",
+      "selector": "a[href=\"/sign-up\"]",
+      "label": "Sign up",
+      "text": "Sign up",
+      "placeholder": "",
+      "required": false,
+      "visible": true,
+      "enabled": true,
+      "parent": "form"
+    },
+    {
+      "id": "UI-012",
+      "tag": "a",
+      "type": "link",
+      "testId": "",
+      "selector": "a[href=\"/terms-services\"]",
+      "label": "Terms of Use",
+      "text": "Terms of Use",
+      "placeholder": "",
+      "required": false,
+      "visible": true,
+      "enabled": true,
+      "parent": "form"
+    },
+    {
+      "id": "UI-013",
+      "tag": "a",
+      "type": "link",
+      "testId": "",
+      "selector": "a[href=\"/privacy-policy\"]",
+      "label": "Privacy Policy",
+      "text": "Privacy Policy",
+      "placeholder": "",
+      "required": false,
+      "visible": true,
+      "enabled": true,
+      "parent": "form"
+    }
+  ],
+  "forms": [
+    {
+      "selector": "form[action=\"#\"]",
+      "action": "#",
+      "method": "POST",
+      "fields": ["UI-005", "UI-008"]
+    }
+  ],
+  "links": [
+    {
+      "text": "",
+      "href": "/",
+      "selector": "a[href=\"/\"]"
+    },
+    {
+      "text": "Forgot Password",
+      "href": "/forgot-password",
+      "selector": "a[href=\"/forgot-password\"]"
+    },
+    {
+      "text": "Sign up",
+      "href": "/sign-up",
+      "selector": "a[href=\"/sign-up\"]"
+    },
+    {
+      "text": "Terms of Use",
+      "href": "/terms-services",
+      "selector": "a[href=\"/terms-services\"]"
+    },
+    {
+      "text": "Privacy Policy",
+      "href": "/privacy-policy",
+      "selector": "a[href=\"/privacy-policy\"]"
+    }
+  ],
+  "modals": [],
+  "navigation": []
+}

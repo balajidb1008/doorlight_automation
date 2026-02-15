@@ -8,7 +8,7 @@
 
 | Feature | Spec | Plan | Tests | Status |
 |---------|------|------|-------|--------|
-| *(No features yet)* | — | — | — | — |
+| User Authentication (Login) | SPEC-001 ✅ | PLAN-001 ✅ | ✅ (9 tests) | COMPLETED |
 
 ---
 
@@ -26,6 +26,14 @@
 ## Active Work
 
 *(No active work)*
+
+---
+
+## Completed Features
+
+| Feature | Completed Date | Summary |
+|---------|---------------|---------|
+| User Authentication (Login) | 2026-02-15 | 9 tests covering login flow, validation, navigation |
 
 ---
 

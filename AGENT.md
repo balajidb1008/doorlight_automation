@@ -12,6 +12,7 @@
 | **Deterministic** | Same spec + plan → same generated tests. No randomness. |
 | **No Hallucination** | Only generate code from APPROVED specs and plans. Never invent features, selectors, or flows. |
 | **No Scope Expansion** | Work on ONE feature at a time. Never touch unrelated files. |
+| **Visible Browser** | When using Playwright, run in headed mode (not headless) so user can see actions |
 | **Pause After Generation** | After generating code, say **"Ready to run"** and STOP. Never auto-run tests. |
 | **User-Triggered Execution** | Run tests ONLY when the user explicitly asks (e.g., "run the tests", "run and fix"). |
 | **Traceability** | Every test traces back to: Spec ID → Plan ID → Assertion ID → Report line. |
@@ -27,8 +28,9 @@
 4. Generate Test Code + POM   →  Write tests & page objects
 5. PAUSE                      →  Say "Ready to run", wait for user
 6. Run Tests (user-triggered) →  Execute only when asked
-7. Heal (user-triggered)      →  Fix failures one-by-one when asked
-8. Report                     →  Generate and update traceability
+7. Update Memory               →  Update memory/index.md with feature status
+8. Heal (user-triggered)      →  Fix failures one-by-one when asked
+9. Report                     →  Generate and update traceability
 ```
 
 ### Validation Gates
@@ -38,6 +40,7 @@
 | Before creating a plan | Spec must exist and be APPROVED |
 | Before generating code | Plan must exist and be APPROVED |
 | Before running tests | Code must be reviewed by user |
+| After tests pass | Update memory/index.md with feature status |
 | Before healing | User must explicitly request it |
 
 ---
@@ -103,6 +106,9 @@ See `templates/dom-map.template.json` for the full format.
 - After code generation, output: `"✅ Tests generated. Ready to run. Say 'run tests' to execute."`
 - Run only when user explicitly says to (e.g., "run tests", "run and fix")
 - Use command: `npx playwright test tests/e2e/<feature>/`
+- **During development/testing**: Use `--workers=1` to run tests sequentially so user can see each test
+  - Example: `npx playwright test tests/e2e/login/ --workers=1`
+- **For CI/parallel execution**: Remove `--workers=1` flag
 
 ---
 
@@ -214,7 +220,7 @@ END
 
 ### Rules
 
-1. **Always update `memory/index.md`** after completing a feature or session
+1. **ALWAYS update `memory/index.md`** after completing a feature (when tests pass)
 2. **Create session log** at end of each working session → `memory/sessions/`
 3. **Create feature summary** when a feature's tests pass → `memory/features/`
 4. **Log architectural decisions** → `memory/decisions/DEC-NNN.md`
