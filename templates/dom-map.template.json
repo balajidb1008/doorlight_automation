@@ -1,0 +1,58 @@
+{
+  "page": "<Page Name>",
+  "url": "<URL or route>",
+  "title": "<Page title>",
+  "capturedAt": "<ISO 8601 timestamp>",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "state": "default | error | loaded | empty",
+  "elements": [
+    {
+      "id": "UI-001",
+      "tag": "<HTML tag>",
+      "type": "<input type or element role>",
+      "testId": "<data-testid value>",
+      "selector": "[data-testid=\"<value>\"]",
+      "label": "<Visible label or aria-label>",
+      "text": "<Inner text if applicable>",
+      "placeholder": "<Placeholder text if applicable>",
+      "required": false,
+      "visible": true,
+      "enabled": true,
+      "parent": "<Parent selector for context>"
+    }
+  ],
+  "forms": [
+    {
+      "selector": "<Form selector>",
+      "action": "<Form action URL>",
+      "method": "<GET | POST>",
+      "fields": ["UI-001", "UI-002"]
+    }
+  ],
+  "links": [
+    {
+      "text": "<Link text>",
+      "href": "<Link href>",
+      "selector": "<Link selector>"
+    }
+  ],
+  "modals": [
+    {
+      "id": "UI-NNN",
+      "selector": "<Modal selector>",
+      "trigger": "<What opens this modal>",
+      "elements": ["UI-NNN"]
+    }
+  ],
+  "navigation": [
+    {
+      "label": "<Nav item label>",
+      "href": "<Nav href>",
+      "selector": "<Nav item selector>",
+      "active": false
+    }
+  ]
+}
