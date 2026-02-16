@@ -1,0 +1,58 @@
+{
+  "page": "Tours",
+  "url": "/tours",
+  "state": "default",
+  "captured": "2026-02-16",
+  "elements": [
+    {
+      "id": "manage-tour-button",
+      "name": "Manage Tour Button",
+      "selector": "getByRole('button', { name: 'Manage Tour' })",
+      "type": "button",
+      "visible": true,
+      "notes": "Multiple - one per tour"
+    },
+    {
+      "id": "reschedule-option",
+      "name": "Reschedule Tour Option",
+      "selector": "locator('div').filter({ hasText: /^Reschedule Tour$/ })",
+      "type": "element",
+      "visible": true
+    },
+    {
+      "id": "add-to-calendar-option",
+      "name": "Add Tour to Calendar Option",
+      "selector": "locator('div').filter({ hasText: /^Add tour to my calendar$/ })",
+      "type": "element",
+      "visible": true
+    },
+    {
+      "id": "cancel-tour-option",
+      "name": "Cancel Tour Request Option",
+      "selector": "locator('div').filter({ hasText: /^Cancel Tour Request$/ })",
+      "type": "element",
+      "visible": true
+    },
+    {
+      "id": "cancel-request-button",
+      "name": "Cancel Request Button",
+      "selector": "getByRole('button', { name: 'Cancel Request' })",
+      "type": "button",
+      "visible": true
+    },
+    {
+      "id": "close-button",
+      "name": "Close Button",
+      "selector": "getByRole('button', { name: 'Close' })",
+      "type": "button",
+      "visible": true
+    },
+    {
+      "id": "success-message",
+      "name": "Success Message",
+      "selector": "getByText('Tour Request Created'), getByText('Tour Rescheduled Successfully')",
+      "type": "text",
+      "visible": true
+    }
+  ]
+}

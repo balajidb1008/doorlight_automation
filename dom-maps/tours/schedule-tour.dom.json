@@ -1,0 +1,54 @@
+{
+  "page": "Property Detail",
+  "url": "/home-for-sale/*",
+  "state": "tour-modal-open",
+  "captured": "2026-02-16",
+  "trigger": "Click on Tour button",
+  "elements": [
+    {
+      "id": "tour-button",
+      "name": "Tour Button",
+      "selector": "getByRole('button', { name: 'Tour' })",
+      "type": "button",
+      "visible": true
+    },
+    {
+      "id": "date-gridcell",
+      "name": "Date Cell",
+      "selector": "getByRole('gridcell', { name: '17' })",
+      "type": "gridcell",
+      "visible": true,
+      "notes": "Dynamic - day number changes"
+    },
+    {
+      "id": "time-button",
+      "name": "Time Button",
+      "selector": "getByRole('button', { name: '10:00 AM' })",
+      "type": "button",
+      "visible": true,
+      "notes": "Dynamic - time values like 10:00 AM, 10:30 AM, 11:00 AM"
+    },
+    {
+      "id": "reset-button",
+      "name": "Reset Button",
+      "selector": "getByRole('button', { name: 'Reset' })",
+      "type": "button",
+      "visible": true
+    },
+    {
+      "id": "submit-button",
+      "name": "Submit Button",
+      "selector": "getByRole('button', { name: 'Submit' })",
+      "type": "button",
+      "visible": true
+    },
+    {
+      "id": "selected-datetime",
+      "name": "Selected Date/Time",
+      "selector": "getByRole('button', { name: /Tue.*Feb.*10:00 AM/ })",
+      "type": "button",
+      "visible": true,
+      "notes": "Shows selected date and time"
+    }
+  ]
+}

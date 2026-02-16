@@ -1,0 +1,86 @@
+{
+  "page": "Property Detail",
+  "url": "/home-for-sale/CA/*",
+  "state": "default",
+  "captured": "2026-02-16",
+  "trigger": "Click on property listing from Explore page",
+  "elements": [
+    {
+      "id": "property-title",
+      "name": "Property Title/Address",
+      "selector": "h1, [data-testid='property-title']",
+      "type": "heading",
+      "visible": true
+    },
+    {
+      "id": "property-price",
+      "name": "Property Price",
+      "selector": "[data-testid='price'], .price",
+      "type": "text",
+      "visible": true
+    },
+    {
+      "id": "property-beds",
+      "name": "Bedrooms",
+      "selector": "[data-testid='beds'], .beds",
+      "type": "text",
+      "visible": true
+    },
+    {
+      "id": "property-baths",
+      "name": "Bathrooms",
+      "selector": "[data-testid='baths'], .baths",
+      "type": "text",
+      "visible": true
+    },
+    {
+      "id": "property-sqft",
+      "name": "Square Feet",
+      "selector": "[data-testid='sqft'], .sqft",
+      "type": "text",
+      "visible": true
+    },
+    {
+      "id": "property-type",
+      "name": "Property Type",
+      "selector": "[data-testid='property-type'], .property-type",
+      "type": "text",
+      "visible": true
+    },
+    {
+      "id": "tab-neighborhood",
+      "name": "Neighborhood Tab",
+      "selector": "[role='tab']:has-text('Neighborhood'), button:has-text('Navigate to Neighborhood')",
+      "type": "tab",
+      "visible": true
+    },
+    {
+      "id": "tab-property-details",
+      "name": "Property Details Tab",
+      "selector": "[role='tab']:has-text('Property Details'), button:has-text('Navigate to Property Details')",
+      "type": "tab",
+      "visible": true
+    },
+    {
+      "id": "tab-similar",
+      "name": "Similar Properties Tab",
+      "selector": "[role='tab']:has-text('Similar'), button:has-text('Navigate to Similar')",
+      "type": "tab",
+      "visible": true
+    },
+    {
+      "id": "tab-overview",
+      "name": "Overview Tab",
+      "selector": "[role='tab']:has-text('Overview'), button:has-text('Navigate to Overview section')",
+      "type": "tab",
+      "visible": true
+    },
+    {
+      "id": "about-this-home",
+      "name": "About This Home Section",
+      "selector": "text=About this home",
+      "type": "section",
+      "visible": true
+    }
+  ]
+}

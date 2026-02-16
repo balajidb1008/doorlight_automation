@@ -1,0 +1,45 @@
+{
+  "page": "Explore",
+  "url": "/explore",
+  "state": "status-filter-open",
+  "captured": "2026-02-16",
+  "trigger": "Click on Status filter button (Active/Sold/Pending)",
+  "elements": [
+    {
+      "id": "status-filter-btn",
+      "name": "Status Filter Button",
+      "selector": "button:has-text('Active'), button:has-text('Sold'), button:has-text('Pending'), button:has-text('Contingent')",
+      "type": "button",
+      "visible": true,
+      "notes": "Shows current selected status. Changes based on selection"
+    },
+    {
+      "id": "status-active",
+      "name": "Active",
+      "selector": "getByText('Active', { exact: true })",
+      "type": "checkbox",
+      "visible": true
+    },
+    {
+      "id": "status-sold",
+      "name": "Sold",
+      "selector": "getByText('Sold', { exact: true })",
+      "type": "checkbox",
+      "visible": true
+    },
+    {
+      "id": "status-pending",
+      "name": "Pending",
+      "selector": "getByText('Pending', { exact: true })",
+      "type": "checkbox",
+      "visible": true
+    },
+    {
+      "id": "status-contingent",
+      "name": "Contingent",
+      "selector": "getByText('Contingent', { exact: true })",
+      "type": "checkbox",
+      "visible": true
+    }
+  ]
+}

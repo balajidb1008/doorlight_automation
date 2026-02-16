@@ -1,0 +1,44 @@
+{
+  "page": "Explore",
+  "url": "/explore",
+  "state": "price-filter-open",
+  "captured": "2026-02-16",
+  "trigger": "Click on Price filter button",
+  "elements": [
+    {
+      "id": "price-min-input",
+      "name": "Min Price Input",
+      "selector": "input[placeholder='Enter min']",
+      "type": "input",
+      "visible": true
+    },
+    {
+      "id": "price-max-input",
+      "name": "Max Price Input",
+      "selector": "input[placeholder='Enter max']",
+      "type": "input",
+      "visible": true
+    },
+    {
+      "id": "price-preset-buttons",
+      "name": "Price Presets",
+      "selector": "button:has-text('100K-150K'), button:has-text('150K-200K'), button:has-text('200K-300K'), button:has-text('300K-400K'), button:has-text('400K-500K'), button:has-text('500K-1M'), button:has-text('1M-2M'), button:has-text('2M-5M'), button:has-text('5M+')",
+      "type": "buttons",
+      "visible": true
+    },
+    {
+      "id": "price-reset-btn",
+      "name": "Reset",
+      "selector": "button:has-text('Reset')",
+      "type": "button",
+      "visible": true
+    },
+    {
+      "id": "price-done-btn",
+      "name": "Done",
+      "selector": "button:has-text('Done')",
+      "type": "button",
+      "visible": true
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "page": "Explore",
+  "url": "/explore",
+  "state": "home-type-filter-open",
+  "captured": "2026-02-16",
+  "trigger": "Click on Home Type filter button",
+  "elements": [
+    {
+      "id": "home-type-house",
+      "name": "House",
+      "selector": "button:has-text('House')",
+      "type": "checkbox",
+      "visible": true
+    },
+    {
+      "id": "home-type-townhouse",
+      "name": "Town House",
+      "selector": "button:has-text('Town House')",
+      "type": "checkbox",
+      "visible": true
+    },
+    {
+      "id": "home-type-condo",
+      "name": "Condo",
+      "selector": "button:has-text('Condo')",
+      "type": "checkbox",
+      "visible": true
+    },
+    {
+      "id": "home-type-land",
+      "name": "Land",
+      "selector": "button:has-text('Land')",
+      "type": "checkbox",
+      "visible": true
+    },
+    {
+      "id": "home-type-multi-family",
+      "name": "Multi-Family",
+      "selector": "button:has-text('Multi-Family')",
+      "type": "checkbox",
+      "visible": true
+    },
+    {
+      "id": "home-type-mobile",
+      "name": "Mobile",
+      "selector": "button:has-text('Mobile')",
+      "type": "checkbox",
+      "visible": true
+    },
+    {
+      "id": "home-type-commercial",
+      "name": "Commercial",
+      "selector": "button:has-text('Commercial')",
+      "type": "checkbox",
+      "visible": true
+    },
+    {
+      "id": "home-type-other",
+      "name": "Other",
+      "selector": "button:has-text('Other')",
+      "type": "checkbox",
+      "visible": true
+    },
+    {
+      "id": "home-type-reset-btn",
+      "name": "Reset",
+      "selector": "button:has-text('Reset')",
+      "type": "button",
+      "visible": true
+    },
+    {
+      "id": "home-type-done-btn",
+      "name": "Done",
+      "selector": "button:has-text('Done')",
+      "type": "button",
+      "visible": true
+    }
+  ]
+}

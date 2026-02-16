@@ -1,0 +1,116 @@
+{
+  "page": "Explore",
+  "url": "/explore",
+  "state": "default",
+  "captured": "2026-02-16",
+  "elements": [
+    {
+      "id": "logo-link",
+      "name": "Logo",
+      "selector": "a[href='/']",
+      "type": "link",
+      "visible": true
+    },
+    {
+      "id": "search-input",
+      "name": "Search Input",
+      "selector": "input[placeholder='City, Neighbourhood, Address, Zip']",
+      "type": "input",
+      "visible": true
+    },
+    {
+      "id": "user-menu-button",
+      "name": "User Menu",
+      "selector": "button:has-text('Balaji V')",
+      "type": "button",
+      "visible": true
+    },
+    {
+      "id": "notification-button",
+      "name": "Notification",
+      "selector": "button[aria-label*='notification'], button:has(svg)",
+      "type": "button",
+      "visible": true
+    },
+    {
+      "id": "price-filter-btn",
+      "name": "Price Filter",
+      "selector": "button:has-text('Price')",
+      "type": "button",
+      "visible": true
+    },
+    {
+      "id": "home-type-filter-btn",
+      "name": "Home Type Filter",
+      "selector": "button:has-text('Home Type')",
+      "type": "button",
+      "visible": true
+    },
+    {
+      "id": "beds-baths-filter-btn",
+      "name": "Beds / Baths Filter",
+      "selector": "button:has-text('Beds / Baths')",
+      "type": "button",
+      "visible": true
+    },
+    {
+      "id": "filters-button",
+      "name": "Filters",
+      "selector": "button[aria-label='Filters']",
+      "type": "button",
+      "visible": true
+    },
+    {
+      "id": "save-search-button",
+      "name": "Save Search",
+      "selector": "button:has-text('Save search')",
+      "type": "button",
+      "visible": true
+    },
+    {
+      "id": "status-filter-btn",
+      "name": "Status Filter",
+      "selector": "button:has-text('Active'), button:has-text('Sold'), button:has-text('Pending'), button:has-text('Contingent')",
+      "type": "button",
+      "visible": true,
+      "notes": "Shows current selected status - changes based on selection"
+    },
+    {
+      "id": "sort-dropdown",
+      "name": "Sort Dropdown",
+      "selector": ".react-select__control",
+      "type": "dropdown",
+      "visible": true
+    },
+    {
+      "id": "property-listings",
+      "name": "Property Listings",
+      "selector": "a[href*='/home-for-sale/']",
+      "type": "links",
+      "visible": true,
+      "notes": "Multiple property cards with price, beds, baths, sqft, address"
+    },
+    {
+      "id": "pagination",
+      "name": "Pagination",
+      "selector": "button[aria-label*='Go to page'], button[aria-label*='next page'], button[aria-label*='previous page']",
+      "type": "buttons",
+      "visible": true
+    },
+    {
+      "id": "city-suggestions",
+      "name": "City Suggestions",
+      "selector": "a[href*='/explore?search=']",
+      "type": "links",
+      "visible": true,
+      "notes": "Links to cities like Milpitas, Cupertino, Sunnyvale, San Jose"
+    },
+    {
+      "id": "view-toggle",
+      "name": "View Toggle",
+      "selector": "button:has-text('List View'), button:has-text('Map View'), button:has-text('Combined View')",
+      "type": "buttons",
+      "visible": true
+    }
+  ]
+}

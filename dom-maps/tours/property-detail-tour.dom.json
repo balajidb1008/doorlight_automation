@@ -1,0 +1,15 @@
+{
+  "page": "Property Detail",
+  "url": "/home-for-sale/*",
+  "state": "tour-button-visible",
+  "captured": "2026-02-16",
+  "elements": [
+    {
+      "id": "tour-button",
+      "name": "Tour Button",
+      "selector": "getByRole('button', { name: 'Tour' })",
+      "type": "button",
+      "visible": true
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "page": "Explore",
+  "url": "/explore",
+  "state": "sort-dropdown-open",
+  "captured": "2026-02-16",
+  "trigger": "Click on Sort dropdown",
+  "elements": [
+    {
+      "id": "sort-newest",
+      "name": "Newest",
+      "selector": "option:has-text('Newest'), [role='option']:has-text('Newest')",
+      "type": "option",
+      "visible": true
+    },
+    {
+      "id": "sort-price-low-high",
+      "name": "Price (low to high)",
+      "selector": "option:has-text('Price (low to high)'), [role='option']:has-text('Price (low to high)')",
+      "type": "option",
+      "visible": true
+    },
+    {
+      "id": "sort-price-high-low",
+      "name": "Price (high to low)",
+      "selector": "option:has-text('Price (high to low)'), [role='option']:has-text('Price (high to low)')",
+      "type": "option",
+      "visible": true
+    },
+    {
+      "id": "sort-square-feet",
+      "name": "Square Feet",
+      "selector": "option:has-text('Square Feet'), [role='option']:has-text('Square Feet')",
+      "type": "option",
+      "visible": true
+    },
+    {
+      "id": "sort-lot-size",
+      "name": "Lot size",
+      "selector": "option:has-text('Lot size'), [role='option']:has-text('Lot size')",
+      "type": "option",
+      "visible": true
+    }
+  ]
+}

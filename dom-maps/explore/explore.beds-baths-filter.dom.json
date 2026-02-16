@@ -1,0 +1,114 @@
+{
+  "page": "Explore",
+  "url": "/explore",
+  "state": "beds-baths-filter-open",
+  "captured": "2026-02-16",
+  "trigger": "Click on Beds / Baths filter button",
+  "elements": [
+    {
+      "id": "beds-any",
+      "name": "Beds Any",
+      "selector": "button:has-text('Any')",
+      "type": "button",
+      "visible": true
+    },
+    {
+      "id": "beds-1",
+      "name": "1+ Beds",
+      "selector": "button:has-text('1')",
+      "type": "button",
+      "visible": true
+    },
+    {
+      "id": "beds-2",
+      "name": "2+ Beds",
+      "selector": "button:has-text('2')",
+      "type": "button",
+      "visible": true
+    },
+    {
+      "id": "beds-3",
+      "name": "3+ Beds",
+      "selector": "button:has-text('3')",
+      "type": "button",
+      "visible": true
+    },
+    {
+      "id": "beds-4",
+      "name": "4+ Beds",
+      "selector": "button:has-text('4')",
+      "type": "button",
+      "visible": true
+    },
+    {
+      "id": "beds-5",
+      "name": "5+ Beds",
+      "selector": "button:has-text('5+')",
+      "type": "button",
+      "visible": true
+    },
+    {
+      "id": "baths-any",
+      "name": "Baths Any",
+      "selector": "(button:has-text('Any'))[2]",
+      "type": "button",
+      "visible": true
+    },
+    {
+      "id": "baths-1-plus",
+      "name": "1+ Baths",
+      "selector": "button:has-text('1+')",
+      "type": "button",
+      "visible": true
+    },
+    {
+      "id": "baths-1-5-plus",
+      "name": "1.5+ Baths",
+      "selector": "button:has-text('1.5+')",
+      "type": "button",
+      "visible": true
+    },
+    {
+      "id": "baths-2-plus",
+      "name": "2+ Baths",
+      "selector": "button:has-text('2+')",
+      "type": "button",
+      "visible": true
+    },
+    {
+      "id": "baths-2-5-plus",
+      "name": "2.5+ Baths",
+      "selector": "button:has-text('2.5+')",
+      "type": "button",
+      "visible": true
+    },
+    {
+      "id": "baths-3-plus",
+      "name": "3+ Baths",
+      "selector": "button:has-text('3+')",
+      "type": "button",
+      "visible": true
+    },
+    {
+      "id": "baths-4-plus",
+      "name": "4+ Baths",
+      "selector": "button:has-text('4+')",
+      "type": "button",
+      "visible": true
+    },
+    {
+      "id": "beds-baths-reset-btn",
+      "name": "Reset",
+      "selector": "button:has-text('Reset')",
+      "type": "button",
+      "visible": true
+    },
+    {
+      "id": "beds-baths-done-btn",
+      "name": "Done",
+      "selector": "button:has-text('Done')",
+      "type": "button",
+      "visible": true
+    }
+  ]
+}
